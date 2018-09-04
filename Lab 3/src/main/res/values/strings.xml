@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab 3 AccCam</string>
+    <string name="my_location_provider">Hello Android World</string>
+    <string name="my_title">Lab 3: Accelerometer and Camera</string>
+    <string name="current_location">Latitude: ?  Longitude: ?  </string>
+    <string name="switch_off">Services Off</string>
+    <string name="switch_on">Services On</string>
+    <string name="altitudeString">Altitude Here</string>
+    <string name="title_activity_acceleration">Acceleration</string>
+</resources>

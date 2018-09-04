@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/accelLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="e.arict.Lab3.Acceleration">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:gravity="center"
+        android:text="Acceleration Screen"
+        android:textColor="@android:color/black"
+        android:textSize="32sp" />
+
+    <ImageButton
+        android:id="@+id/accelGoBack_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/googleg_standard_color_18"
+        android:visibility="visible" />
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
